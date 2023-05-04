@@ -37,16 +37,16 @@ function default_settings() {
   CORE_COUNT="$var_cpu"
   RAM_SIZE="$var_ram"
   BRG="vmbr0"
-  NET=dhcp
-  GATE=""
+  NET="192.168.30.135/24"
+  GATE="192.168.30.1"
   DISABLEIP6="no"
   MTU=""
   SD=""
   NS=""
   MAC=""
-  VLAN=""
+  VLAN="30"
   SSH="no"
-  VERB="no"
+  VERB="yes"
   echo_default
 }
 
